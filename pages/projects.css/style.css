@@ -308,6 +308,7 @@ a{
 .get-in-touch a {
     display: block;
     padding: 5px 10px;
+    font-size:13px;
 }
 #all-lists{
      display: flex;
@@ -343,3 +344,4 @@ list-style: none;
     height: 50px;
 }
 }
+
