@@ -1,0 +1,246 @@
+body{
+    background-color: rgba(0, 0, 0, 0.986);
+    color: aliceblue;
+    font-family: "Lobster", sans-serif; 
+}
+.fade-target.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.container-header {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+.container-header{
+  display: flex;
+  flex-direction: row;
+  font-family: "Lobster", sans-serif;
+  margin-bottom: 50px;
+  justify-content: space-between;
+  position: sticky;
+ top: 0;
+  z-index: 1000;
+  background-color: #000;
+}
+.menu{
+    word-spacing: 2px;
+}
+.menu td{
+
+    width: auto;
+    height: auto;
+    padding-left: 5px;
+}
+.menu table td {
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.menu table td a,
+.get-in-touch a {
+    display: block;
+    padding: 10px 20px;
+    border: 2px solid #ffffff20;
+    background: #000;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+}
+
+.menu table td a:hover,
+.get-in-touch a:hover {
+    border-color: #ffffff60;
+    transform: translateY(-3px) translateX(3px);
+    box-shadow: 0px 0px 10px #ffffff20;
+}
+
+
+
+.footer{
+  display: flex;
+    flex-direction: row;
+    font-family: "Lobster", sans-serif; 
+}
+#all-lists{
+     display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-left: 500px;
+    margin-top: 40px;
+}
+
+#imgs{
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+   
+}
+#imgs img{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+.links h1{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+.links p{
+    font-size: 10px;
+     font-family: "Lobster", sans-serif; 
+     text-align: left;
+}
+.container-Certificates{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    font-family: "Lobster", sans-serif;
+}
+
+.Certificates{
+  background: #111;
+  color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 2px groove #505050;
+}
+.Certificates:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255,255,255,0.1);
+}
+
+.Certificates .thumb img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+.Certificates .meta {
+  padding: 12px;
+}
+
+.Certificates .meta .title {
+  margin: 0;
+  font-size: 18px;
+}
+.Certificates .short {
+  font-size: 14px;
+  color: #bbb;
+  margin: 6px 0;
+}
+
+
+@media (max-width: 992px) {
+a{
+    font-size: 20px;
+}
+    #all-lists{
+     display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+#all-lists h1{
+font-size: 20px;
+}
+#all-lists li{
+font-size: 15px;
+}
+.container-Certificates{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    font-family: "Lobster", sans-serif;
+}
+}
+@media (max-width: 768px) {
+li a{
+font-size: 20px;
+}
+.container-header{
+  margin-bottom: 40px;
+}
+.menu{
+    word-spacing: 1px;
+}
+.menu td{
+    width: auto;
+    height: auto;
+    padding-left: 2px;
+}
+.menu table td {
+    margin-right: 5px;
+}
+a{
+    font-size: 13px;
+}
+.menu table td a,
+.get-in-touch a {
+    display: block;
+    padding: 5px 10px;
+}
+#all-lists{
+     display: flex;
+    flex-direction: column;
+    gap: 0%;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+#all-lists h1{
+font-size: 20px;
+}
+#all-lists li{
+font-size: 15px;
+}
+#all-lists ul{
+list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.links h1{
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+#imgs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   margin-left: 20px;
+}
+#imgs img{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.container-Certificates{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 80px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    font-family: "Lobster", sans-serif;
+}
+}
+
