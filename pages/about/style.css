@@ -1,0 +1,317 @@
+.header-wrapper {
+  background: url("../../image/about-hero.jpg") center/cover fixed no-repeat;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&family=Source+Code+Pro:wght@300;400;700&display=swap");
+
+:root {
+  --primary-color: #ff0066;
+  --secondary-color: #016262;
+  --background-dark: #1a1a1a;
+  --text-light: #e0e0e0;
+  --text-muted: #a0a0a0;
+  --card-background: rgba(255, 255, 255, 0.05);
+  --border-highlight: rgba(255, 0, 102, 0.5);
+}
+
+.about-me-section {
+  max-width: 95%;
+  margin: 50px auto;
+  padding: 30px;
+  background:
+    linear-gradient(rgba(26, 26, 26, 0.9), rgba(26, 26, 26, 0.95)),
+    url("../../image/about-hero.jpg") center center / cover no-repeat;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+}
+
+.about-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed var(--border-highlight);
+}
+
+.profile-picture {
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--primary-color);
+  box-shadow: 0 0 15px var(--primary-color);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 15px var(--primary-color);
+  }
+  50% {
+    box-shadow: 0 0 25px var(--secondary-color);
+  }
+  100% {
+    box-shadow: 0 0 15px var(--primary-color);
+  }
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.intro-text {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.intro-text h1 {
+  font-size: 2.8rem;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  text-shadow:
+    0 0 10px var(--primary-color),
+    0 0 20px var(--secondary-color);
+  font-family: "Source Code Pro", monospace;
+}
+
+.intro-text p {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bolder;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+  box-shadow: 0 0 10px var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.cta-button:hover {
+  background-color: rgb(183, 183, 183);
+  color: var(--primary-color);
+  box-shadow: 0 0 20px var(--secondary-color);
+  border-color: var(--secondary-color);
+  transform: translateY(-3px);
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.about-card {
+  background: var(--card-background);
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.card-icon {
+  font-size: 2rem;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  opacity: 0.3;
+  color: var(--secondary-color);
+}
+
+.about-card h2 {
+  font-size: 1.6rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-right: 50px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.about-card p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+  text-align: right;
+  line-height: 2;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.details-link {
+  display: inline-block;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.details-link:hover {
+  color: var(--primary-color);
+}
+
+.faq-section {
+  margin-top: 50px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 255, 255, 0.2);
+}
+
+.faq-section h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--secondary-color);
+  margin-bottom: 30px;
+  font-family: "Source Code Pro", monospace;
+  text-shadow: 0 0 8px var(--secondary-color);
+}
+
+.faq-section details {
+  background: var(--card-background);
+  margin-bottom: 15px;
+  border-radius: 8px;
+  text-align: right;
+  border: 1px solid rgba(255, 0, 102, 0.1);
+}
+
+.faq-section summary {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--text-light);
+  padding: 15px 20px;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.faq-section summary::before {
+  content: "+";
+  position: absolute;
+  left: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  transition: transform 0.3s ease;
+}
+
+.faq-section details[open] > summary::before {
+  transform: rotate(45deg);
+}
+
+.faq-section summary:hover {
+  color: var(--primary-color);
+}
+
+.faq-section p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  padding: 15px 20px 20px 20px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.1);
+  margin-top: -5px;
+}
+
+@media (max-width: 768px) {
+  .about-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .profile-picture {
+    width: 120px;
+    height: 120px;
+  }
+  .intro-text {
+    width: 100%;
+  }
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+  .faq-section h3 {
+    font-size: 1.8rem;
+  }
+}
+
+.about-card,
+.faq-section details,
+.intro-text p,
+.intro-text h1,
+.cta-button {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: elementFadeIn 0.6s forwards ease-out;
+}
+.about-header .profile-picture {
+  animation:
+    elementFadeIn 0.6s forwards ease-out,
+    pulse 2s infinite;
+}
+
+.about-content .about-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.about-content .about-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.about-content .about-card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.about-content .about-card:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.about-content .about-card:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.about-content .about-card:nth-child(6) {
+  animation-delay: 0.6s;
+}
+
+.faq-section details:nth-of-type(1) {
+  animation-delay: 0.7s;
+}
+.faq-section details:nth-of-type(2) {
+  animation-delay: 0.8s;
+}
+.faq-section details:nth-of-type(3) {
+  animation-delay: 0.9s;
+}
+
+@keyframes elementFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

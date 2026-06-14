@@ -1,0 +1,249 @@
+.header-wrapper {
+  background: url("../../image/heso\ section\ gtn\(1\).png") center/cover fixed
+    no-repeat;
+}
+/* main */
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+/* form box */
+.container {
+  background: #070809;
+  padding: 30px;
+  border-radius: 16px;
+  width: 80%;
+  border: 2px double rgb(134, 132, 132);
+  box-shadow: 0 11px 32px -7px rgb(117, 117, 117);
+}
+
+/* tabs */
+.tabs {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 10px;
+  justify-content: center;
+}
+.tab {
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #000;
+  border: 2px rgb(255, 255, 255) solid;
+  color: rgb(82, 82, 82);
+}
+.tab.active {
+  border-bottom: 2px #ff006a solid;
+  color: rgb(255, 255, 255);
+  transition: ease 0.5s;
+  box-shadow: 0 5px 20px #520022;
+}
+input,
+textarea,
+#login button {
+  text-align: center;
+  padding: 20px 0;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #111111;
+  border: 3px black solid;
+  color: rgba(255, 255, 255, 0.901);
+  font-size: 15px;
+  border-radius: 30px;
+}
+textarea {
+  padding: 40px 0;
+  line-height: 25px;
+}
+input:hover,
+textarea:hover,
+#login button:hover {
+  border: 3px #ff006a solid;
+  transition: ease.50s;
+}
+input:focus,
+textarea:focus {
+  border: 3px #ff006a solid;
+  outline: none;
+  box-shadow: 0 10px 20px 0 #4a001f;
+}
+#login button {
+  width: 20%;
+}
+#login button:active {
+  background-color: #22000e;
+  border: 3px #ff006a solid;
+  transition: ease.10s;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0 10px 20px 0 #4a001f;
+}
+#resume {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20%;
+  margin: 40px 0 40px 0;
+  flex-wrap: wrap;
+}
+.resume-e,
+.resume-f {
+  display: flex;
+  flex-direction: column;
+  background-color: #111111;
+  padding: 20px;
+  border-radius: 10%;
+}
+.resume-e:hover,
+.resume-f:hover {
+  background-color: #1d1d1d;
+  transform: scale(1.1);
+  transition: ease 0.25s;
+}
+.resume-e img,
+.resume-f img {
+  border-radius: 10%;
+}
+.resume-e a,
+.resume-f a {
+  font-size: 15px;
+  text-align: center;
+  margin: 15px auto;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 30px;
+}
+.resume-e a:hover,
+.resume-f a:hover {
+  background-color: #c00050;
+  transform: scale(1.1);
+  transition: ease 0.25s;
+  box-shadow: 0 1px 10px -1px rgb(87, 87, 87);
+}
+/* forms */
+.form {
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+}
+.form.active {
+  display: flex;
+}
+
+/* contact-box */
+.register-inside {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding: 20px 0;
+}
+
+/* //----------------------------------Contact---------------------------------------- --> */
+
+.contact-box {
+  background-color: #111111;
+  text-align: center;
+  padding: 20px 60px;
+  border: #3b001900 5px solid;
+  border-radius: 20px;
+  margin: 0 20px;
+  line-height: 25px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.contact-box img {
+  border-radius: 50%;
+  width: 100px;
+  box-shadow: 0 0 20px 0 #ff006a;
+}
+.contact-box p {
+  font-size: 25px;
+  font-family: "Lobster", sans-serif;
+  color: #ffffff;
+}
+.contact-box a {
+  padding: 10px 20%;
+  border-radius: 15px;
+  background-color: #1f1e1e;
+  font-size: 20px;
+  border: #69002c00 3px solid;
+}
+.contact-box a:hover {
+  transform: translateX(3px);
+  transition: ease 0.25s;
+  border: #69002c 3px solid;
+  box-shadow: 0 -3px 15px 1px #69002c;
+}
+.contact-box:hover {
+  transform: translate(-3px);
+  transition: ease 0.25s;
+  border: #000000 5px solid;
+  box-shadow: 0 0 20px 5px rgb(64, 0, 79);
+}
+
+/* //------------------------------responsive--------------------------- --> */
+
+@media (max-width: 980px) {
+  .register-inside {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .contact-box {
+    padding: 20px 10px;
+    border-radius: 20px;
+  }
+  .contact-box label {
+    font-size: 15px;
+  }
+  .contact-box p {
+    font-size: 15px;
+  }
+  .contact-box a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #resume {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .tab {
+    font-size: 15px;
+  }
+  #login button {
+    width: 40%;
+  }
+  #login button:active {
+    font-size: 15px;
+  }
+  .register-inside {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
+  .contact-box {
+    padding: 20px 10px;
+    border-radius: 20px;
+  }
+  .contact-box img {
+    width: 70px;
+  }
+  .contact-box p {
+    font-size: 15px;
+  }
+  .contact-box a {
+    font-size: 10px;
+  }
+}
