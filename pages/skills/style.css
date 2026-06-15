@@ -1,5 +1,6 @@
 .header-wrapper {
-  background: url("../../image/hero\ \(1\).jpg") center/cover fixed no-repeat;
+  background: url("../../image/hero bg/hero\ \(1\).jpg") center/cover fixed
+    no-repeat;
 }
 .skills-page {
   max-width: 1200px;

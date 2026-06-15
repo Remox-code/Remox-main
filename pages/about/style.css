@@ -1,5 +1,6 @@
 .header-wrapper {
-  background: url("../../image/about-hero.jpg") center/cover fixed no-repeat;
+  background: url("../../image/hero bg/about-hero.jpg") center/cover fixed
+    no-repeat;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&family=Source+Code+Pro:wght@300;400;700&display=swap");
@@ -20,7 +21,7 @@
   padding: 30px;
   background:
     linear-gradient(rgba(26, 26, 26, 0.9), rgba(26, 26, 26, 0.95)),
-    url("../../image/about-hero.jpg") center center / cover no-repeat;
+    url("../../image/hero bg/about-hero.jpg") center center / cover no-repeat;
   border-radius: 15px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
 }
