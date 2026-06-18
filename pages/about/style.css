@@ -260,6 +260,9 @@
   .faq-section h3 {
     font-size: 1.8rem;
   }
+  .intro-text h1 {
+    font-size: 2rem;
+  }
 }
 
 .about-card,
