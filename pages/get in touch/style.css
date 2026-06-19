@@ -86,12 +86,13 @@ textarea:focus {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 20%;
+  gap: 10%;
   margin: 40px 0 40px 0;
   flex-wrap: wrap;
 }
 .resume-e,
-.resume-f {
+.resume-f,
+.sharayet {
   display: flex;
   flex-direction: column;
   background-color: #111111;
@@ -99,17 +100,20 @@ textarea:focus {
   border-radius: 10%;
 }
 .resume-e:hover,
-.resume-f:hover {
+.resume-f:hover,
+.sharayet:hover {
   background-color: #1d1d1d;
   transform: scale(1.1);
   transition: ease 0.25s;
 }
 .resume-e img,
-.resume-f img {
+.resume-f img,
+.sharayet img {
   border-radius: 10%;
 }
 .resume-e a,
-.resume-f a {
+.resume-f a,
+.sharayet a {
   font-size: 15px;
   text-align: center;
   margin: 15px auto;
@@ -118,7 +122,8 @@ textarea:focus {
   border-radius: 30px;
 }
 .resume-e a:hover,
-.resume-f a:hover {
+.resume-f a:hover,
+.sharayet a:hover {
   background-color: #c00050;
   transform: scale(1.1);
   transition: ease 0.25s;
