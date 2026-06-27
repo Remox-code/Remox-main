@@ -1,0 +1,40 @@
+@keyframes ultraSmoothFade {
+  0% {
+    opacity: 0;
+    /* حرکت بسیار بسیار کم (فقط 5 پیکسل) برای اینکه حس پویایی حفظ شود اما مزاحم فید نشود */
+    transform: translateY(5px);
+    filter: blur(8px); /* مات بودن بیشتر در شروع برای حس سینمایی */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.fade-hero {
+  /* زمان را به 1.2 ثانیه افزایش دادم تا انتقال بسیار آرام باشد */
+  /* از یک منحنی Bezier بسیار نرم برای پایان‌بندی استفاده شده است */
+  animation: ultraSmoothFade 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+
+  /* بهینه‌سازی برای جلوگیری از پرش پیکسل‌ها در هنگام فید */
+  backface-visibility: hidden;
+  perspective: 1000px;
+  will-change: opacity, transform, filter;
+}
+
+/* حالت اولیه: المان مخفی است */
+.fade {
+  opacity: 0;
+  transform: translateY(30px); /* کمی پایین‌تر قرار می‌گیرد */
+  filter: blur(10px);
+  transition: all 1.4s cubic-bezier(0.22, 1, 0.36, 1); /* انتقال بسیار نرم */
+  will-change: opacity, transform, filter;
+}
+
+/* وقتی اسکرول شد و کلاس visible اضافه شد، انیمیشن اجرا می‌شود */
+.fade.visible {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}

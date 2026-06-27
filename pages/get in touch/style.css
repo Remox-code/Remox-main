@@ -115,16 +115,15 @@ textarea:focus {
 .resume-f a,
 .sharayet a {
   font-size: 15px;
-  text-align: center;
   margin: 15px auto;
-  width: fit-content;
-  padding: 5px 10px;
-  border-radius: 30px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #242424;
 }
 .resume-e a:hover,
 .resume-f a:hover,
 .sharayet a:hover {
-  background-color: #c00050;
+  background-color: #ff2116;
   transform: scale(1.1);
   transition: ease 0.25s;
   box-shadow: 0 1px 10px -1px rgb(87, 87, 87);

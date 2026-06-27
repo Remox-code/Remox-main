@@ -1,79 +1,157 @@
 [
   {
-    "title": "GameBar",
-    "description": "سایت دانلود بازی برای سیستم عامل‌های مختلف به صورت رایگان",
-    "iframeUrl": "https://remox-code.github.io/GameBar/",
-    "githubUrl": "https://remox-code.github.io/GameBar/",
-    "tags": ["HTML", "CSS", "JS"]
+    "category": "projects",
+    "items": [
+      {
+        "title": "GameBar",
+        "description": "سایت دانلود بازی برای سیستم عامل‌های مختلف به صورت رایگان",
+        "iframeUrl": "https://remox-code.github.io/GameBar/",
+        "githubUrl": "https://remox-code.github.io/GameBar/",
+        "tags": ["HTML", "CSS", "JS"]
+      },
+      {
+        "title": "Remox-store",
+        "description": "سایت فروشگاهی فروش انواع اکسسوری زنانه و مردانه",
+        "iframeUrl": "https://remox-code.github.io/Remox-store/",
+        "githubUrl": "https://remox-code.github.io/Remox-store/",
+        "tags": ["HTML", "CSS", "JS"]
+      },
+      {
+        "title": "Remox-personal",
+        "description": "سایت شخصی و رزومه همراه با توضیح مفاهیم پایه برنامه‌نویسی",
+        "iframeUrl": "https://remox-code.github.io/Remox-personal/",
+        "githubUrl": "https://remox-code.github.io/Remox-personal/",
+        "tags": ["HTML", "CSS", "JS"]
+      },
+      {
+        "title": "Namakaran",
+        "description": "سایت شرکت نماکاران اجرای انواع کابینت، سالن آمفی‌تئاتر و... بالاترین کیفیت",
+        "iframeUrl": "https://remox-code.github.io/Namakaran/",
+        "githubUrl": "https://remox-code.github.io/Namakaran/",
+        "tags": ["HTML", "CSS", "JS"]
+      },
+      {
+        "title": "Remox-weather",
+        "description": "سایت آب هوا با استفاده از API های مختلف مانند پیشبینی آب و هوای منطقه",
+        "iframeUrl": "https://remox-code.github.io/weather/",
+        "githubUrl": "https://remox-code.github.io/weather/",
+        "tags": ["HTML", "CSS", "JS"]
+      },
+      {
+        "title": "Kesht.Sanat.Hamed",
+        "description": "سایت فروش انواع محصولات کشاورزی طبیعی، کشت و صنعت حامد",
+        "iframeUrl": "https://remox-code.github.io/Kesht-Sanat-Hamed/",
+        "githubUrl": "https://remox-code.github.io/Kesht-Sanat-Hamed/",
+        "tags": ["HTML", "CSS", "JS"]
+      },
+      {
+        "title": "Remox-games",
+        "description": "سایت بازی های گوناگون و جالب و تمرکز روی کار با جاوااسکریپت",
+        "iframeUrl": "https://remox-code.github.io/Remox-games/",
+        "githubUrl": "https://remox-code.github.io/Remox-games/",
+        "tags": ["HTML", "CSS", "JS"]
+      },
+      {
+        "title": "Remox-Gym",
+        "description": "سایت معرفی باشگاه بدنسازی پرداخت شهریه و ثبت نام آنلاین",
+        "iframeUrl": "https://remox-code.github.io/Remox-gym/",
+        "githubUrl": "https://remox-code.github.io/Remox-gym/",
+        "tags": ["HTML", "CSS", "JS"]
+      },
+      {
+        "title": "boosty",
+        "description": "وبسایت معرفی و فروش ابزار توسعه فردی",
+        "iframeUrl": "https://remox-code.github.io/Remox-boosty/",
+        "githubUrl": "https://remox-code.github.io/Remox-boosty/",
+        "tags": ["HTML", "CSS", "JS"]
+      },
+      {
+        "title": "Remox-Tracker",
+        "description": "وبسایت ارائه ابزار توسعه فردی",
+        "iframeUrl": "https://remox-code.github.io/Remox-Tracker/",
+        "githubUrl": "https://remox-code.github.io/Remox-Tracker/",
+        "tags": ["HTML", "CSS", "JS"]
+      },
+      {
+        "title": "Remox-Green",
+        "description": "وبسایت گلخانه - خرید آنلاین",
+        "iframeUrl": "https://remox-code.github.io/Remox-Green/",
+        "githubUrl": "https://remox-code.github.io/Remox-Green/",
+        "tags": ["HTML", "CSS", "JS"]
+      }
+    ]
   },
   {
-    "title": "Remox-store",
-    "description": "سایت فروشگاهی فروش انواع اکسسوری زنانه و مردانه",
-    "iframeUrl": "https://remox-code.github.io/Remox-store/",
-    "githubUrl": "https://remox-code.github.io/Remox-store/",
-    "tags": ["HTML", "CSS", "JS"]
+    "category": "cards",
+    "items": [
+      {
+        "layout": "amodi",
+        "img1": "../images-page2/cards/cart nn1.png",
+        "img2": "../images-page2/cards/cart nn2.png"
+      },
+      {
+        "layout": "amodi",
+        "img1": "../images-page2/cards/cart n1.png",
+        "img2": "../images-page2/cards/cart n2.png"
+      },
+      {
+        "layout": "amodi",
+        "img1": "../images-page2/cards/zaferan (1).jpg",
+        "img2": "../images-page2/cards/zaferan (2).jpg"
+      },
+      {
+        "layout": "amodi",
+        "img1": "../images-page2/cards/cart z1.png",
+        "img2": "../images-page2/cards/cart z2.png"
+      },
+      {
+        "layout": "ofogi",
+        "img1": "../images-page2/cards/cart p1.png",
+        "img2": "../images-page2/cards/cart p2.png"
+      },
+      {
+        "layout": "ofogi",
+        "img1": "../images-page2/cards/cartB (1).png",
+        "img2": "../images-page2/cards/cartB (2).png"
+      },
+      {
+        "layout": "ofogi",
+        "img1": "../images-page2/cards/cartA (1).png",
+        "img2": "../images-page2/cards/cartA (2).png"
+      },
+      {
+        "layout": "ofogi",
+        "img1": "../images-page2/cards/cartG (1).png",
+        "img2": "../images-page2/cards/cartG (2).png"
+      }
+    ]
   },
   {
-    "title": "Remox-personal",
-    "description": "سایت شخصی و رزومه همراه با توضیح مفاهیم پایه برنامه‌نویسی",
-    "iframeUrl": "https://remox-code.github.io/Remox-personal/",
-    "githubUrl": "https://remox-code.github.io/Remox-personal/",
-    "tags": ["HTML", "CSS", "JS"]
-  },
-  {
-    "title": "Namakaran",
-    "description": "سایت شرکت نماکاران اجرای انواع کابینت، سالن آمفی‌تئاتر و... بالاترین کیفیت",
-    "iframeUrl": "https://remox-code.github.io/Namakaran/",
-    "githubUrl": "https://remox-code.github.io/Namakaran/",
-    "tags": ["HTML", "CSS", "JS"]
-  },
-  {
-    "title": "Remox-weather",
-    "description": "های مختلف مانند پیشبینی آب و هوای منطقه API سایت آب هوا با استفاده از",
-    "iframeUrl": "https://remox-code.github.io/weather/",
-    "githubUrl": "https://remox-code.github.io/weather/",
-    "tags": ["HTML", "CSS", "JS"]
-  },
-  {
-    "title": "Kesht.Sanat.Hamed",
-    "description": "سایت فروش انواع محصولات کشاورزی طبیعی، کشت و صنعت حامد",
-    "iframeUrl": "https://remox-code.github.io/Kesht-Sanat-Hamed/",
-    "githubUrl": "https://remox-code.github.io/Kesht-Sanat-Hamed/",
-    "tags": ["HTML", "CSS", "JS"]
-  },
-  {
-    "title": "Remox-games",
-    "description": "سایت بازی های گوناگون و جالب و تمرکز روی کار با جاوااسکریپت",
-    "iframeUrl": "https://remox-code.github.io/Remox-games/",
-    "githubUrl": "https://remox-code.github.io/Remox-games/",
-    "tags": ["HTML", "CSS", "JS"]
-  },
-  {
-    "title": "Remox-Gym",
-    "description": "سایت معرفی باشگاه بدنسازی پرداخت شهریه و ثبت نام آنلاین",
-    "iframeUrl": "https://remox-code.github.io/Remox-gym/",
-    "githubUrl": "https://remox-code.github.io/Remox-gym/",
-    "tags": ["HTML", "CSS", "JS"]
-  },
-  {
-    "title": "boosty",
-    "description": "وبسایت معرفی و فروش ابزار توسعه فردی",
-    "iframeUrl": "https://remox-code.github.io/Remox-boosty/",
-    "githubUrl": "https://remox-code.github.io/Remox-boosty/",
-    "tags": ["HTML", "CSS", "JS"]
-  },
-  {
-    "title": "Remox-Tracker",
-    "description": "وبسایت ارائه ابزار توسعه فردی",
-    "iframeUrl": "https://remox-code.github.io/Remox-Tracker/",
-    "githubUrl": "https://remox-code.github.io/Remox-Tracker/",
-    "tags": ["HTML", "CSS", "JS"]
-  },
-  {
-    "title": "Remox-Green",
-    "description": "وبسایت گلخانه - خرید آنلاین",
-    "iframeUrl": "https://remox-code.github.io/Remox-Green/",
-    "githubUrl": "https://remox-code.github.io/Remox-Green/",
-    "tags": ["HTML", "CSS", "JS"]
+    "category": "logos",
+    "items": [
+      { "img": "../images-page2/logo/logo.png" },
+      { "img": "../images-page2/logo/logo (2).jpg" },
+      { "img": "../images-page2/logo/logo (2).png" },
+      { "img": "../images-page2/logo/logo (19).png" },
+      { "img": "../images-page2/logo/logo (4).jpg" },
+      { "img": "../images-page2/logo/logo (5).jpg" },
+      { "img": "../images-page2/logo/logo (1).jpg" },
+      { "img": "../images-page2/logo/logo (1).png" },
+      { "img": "../images-page2/logo/logo (3).png" },
+      { "img": "../images-page2/logo/logo (4).png" },
+      { "img": "../images-page2/logo/logo (5).png" },
+      { "img": "../images-page2/logo/logo (6).png" },
+      { "img": "../images-page2/logo/logo (7).png" },
+      { "img": "../images-page2/logo/logo (8).png" },
+      { "img": "../images-page2/logo/logo (9).png" },
+      { "img": "../images-page2/logo/logo (10).png" },
+      { "img": "../images-page2/logo/logo (11).png" },
+      { "img": "../images-page2/logo/logo (13).png" },
+      { "img": "../images-page2/logo/logo (14).png" },
+      { "img": "../images-page2/logo/logo (15).png" },
+      { "img": "../images-page2/logo/logo (16).png" },
+      { "img": "../images-page2/logo/logo (17).png" },
+      { "img": "../images-page2/logo/logo (18).png" }
+    ]
   }
 ]
