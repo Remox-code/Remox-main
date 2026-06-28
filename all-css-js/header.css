@@ -10,22 +10,19 @@
   z-index: 1000;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
-
 a {
   text-decoration: none;
-  color: white;
-  transition: color 0.25s ease;
+  color: #fff;
+  transition: color 0.25s;
 }
-
 .menu ul {
   list-style: none;
   display: flex;
   padding: 0;
   gap: 15px;
 }
-
-.menu a,
-.get-in-touch a {
+.get-in-touch a,
+.menu a {
   display: block;
   padding: 10px 20px;
   border: 2px solid #ffffff20;
@@ -34,9 +31,8 @@ a {
   font-size: 16px;
   position: relative;
 }
-
-.menu a:hover,
-.get-in-touch a:hover {
+.get-in-touch a:hover,
+.menu a:hover {
   border-color: #ffffff60;
   transform: translate(3px, -3px);
   box-shadow: 0 0 10px #ffffff20;

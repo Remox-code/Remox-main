@@ -1,10 +1,13 @@
-.header-wrapper {
-  background: url("../../image/hero bg/about-hero.jpg") center/cover fixed
-    no-repeat;
+.about-card h2,
+.about-card p,
+.details-link {
+  z-index: 1;
+  position: relative;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&family=Source+Code+Pro:wght@300;400;700&display=swap");
-
+.header-wrapper {
+  background: url("../../image/hero bg/about-hero.jpg") center/cover no-repeat
+    fixed;
+}
 :root {
   --primary-color: #ff0066;
   --secondary-color: #016262;
@@ -14,18 +17,16 @@
   --card-background: rgba(255, 255, 255, 0.05);
   --border-highlight: rgba(255, 0, 102, 0.5);
 }
-
 .about-me-section {
   max-width: 95%;
   margin: 50px auto;
   padding: 30px;
   background:
     linear-gradient(rgba(26, 26, 26, 0.9), rgba(26, 26, 26, 0.95)),
-    url("../../image/hero bg/about-hero.jpg") center center / cover no-repeat;
+    url("../../image/hero bg/about-hero.jpg") center center/cover no-repeat;
   border-radius: 15px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
 }
-
 .about-header {
   display: flex;
   flex-wrap: wrap;
@@ -36,7 +37,6 @@
   padding-bottom: 30px;
   border-bottom: 1px dashed var(--border-highlight);
 }
-
 .profile-picture {
   flex-shrink: 0;
   width: 150px;
@@ -45,35 +45,28 @@
   overflow: hidden;
   border: 3px solid var(--primary-color);
   box-shadow: 0 0 15px var(--primary-color);
-  animation: pulse 2s infinite;
+  animation: 2s infinite pulse;
 }
-
 @keyframes pulse {
-  0% {
+  0%,
+  100% {
     box-shadow: 0 0 15px var(--primary-color);
   }
   50% {
     box-shadow: 0 0 25px var(--secondary-color);
   }
-  100% {
-    box-shadow: 0 0 15px var(--primary-color);
-  }
 }
-
 .profile-picture img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-
 .intro-text {
   flex-grow: 1;
   text-align: right;
 }
-
 .intro-text h1 {
-  font-size: 2.8rem;
   color: var(--primary-color);
   margin-bottom: 10px;
   text-shadow:
@@ -81,59 +74,64 @@
     0 0 20px var(--secondary-color);
   font-family: "Source Code Pro", monospace;
 }
-
 .intro-text p {
-  font-size: 1.1rem;
   color: var(--text-muted);
   margin-bottom: 8px;
 }
-
+.about-card h2,
+.cta-button:hover,
+.details-link:hover,
+.faq-section summary:hover {
+  color: var(--primary-color);
+}
 .cta-button {
   display: inline-block;
   background-color: var(--primary-color);
-  color: white;
+  color: #fff;
   padding: 12px 25px;
   border-radius: 30px;
   text-decoration: none;
   font-weight: bolder;
-  transition: all 0.3s ease;
+  transition: 0.3s;
   margin-top: 15px;
   box-shadow: 0 0 10px var(--primary-color);
   border: 1px solid var(--primary-color);
 }
-
+.about-card,
+.faq-section details {
+  background: var(--card-background);
+}
 .cta-button:hover {
-  background-color: rgb(183, 183, 183);
-  color: var(--primary-color);
+  background-color: #b7b7b7;
   box-shadow: 0 0 20px var(--secondary-color);
   border-color: var(--secondary-color);
   transform: translateY(-3px);
 }
-
 .about-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
   margin-bottom: 40px;
 }
-
 .about-card {
-  background: var(--card-background);
   padding: 25px;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+    transform 0.3s,
+    box-shadow 0.3s;
   position: relative;
   overflow: hidden;
 }
-
+.details-link,
+.faq-section summary {
+  transition: color 0.3s;
+  font-weight: 700;
+}
 .about-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
-
 .card-icon {
   font-size: 2rem;
   position: absolute;
@@ -142,45 +140,28 @@
   opacity: 0.3;
   color: var(--secondary-color);
 }
-
 .about-card h2 {
   font-size: 1.6rem;
-  color: var(--primary-color);
   margin-bottom: 15px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding-right: 50px;
-  position: relative;
-  z-index: 1;
   text-align: center;
 }
-
 .about-card p {
   font-size: 0.95rem;
   color: var(--text-muted);
   margin-bottom: 10px;
-  position: relative;
-  z-index: 1;
   text-align: right;
   line-height: 2;
   font-family:
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
 .details-link {
   display: inline-block;
   color: var(--secondary-color);
   text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
-  position: relative;
-  z-index: 1;
 }
-
-.details-link:hover {
-  color: var(--primary-color);
-}
-
 .faq-section {
   margin-top: 50px;
   background: rgba(0, 0, 0, 0.4);
@@ -188,7 +169,6 @@
   border-radius: 10px;
   border: 1px solid rgba(0, 255, 255, 0.2);
 }
-
 .faq-section h3 {
   text-align: center;
   font-size: 2rem;
@@ -197,51 +177,38 @@
   font-family: "Source Code Pro", monospace;
   text-shadow: 0 0 8px var(--secondary-color);
 }
-
 .faq-section details {
-  background: var(--card-background);
   margin-bottom: 15px;
   border-radius: 8px;
   text-align: right;
   border: 1px solid rgba(255, 0, 102, 0.1);
 }
-
 .faq-section summary {
   font-size: 1.2rem;
-  font-weight: bold;
   color: var(--text-light);
   padding: 15px 20px;
   cursor: pointer;
   position: relative;
-  transition: color 0.3s ease;
 }
-
 .faq-section summary::before {
   content: "+";
   position: absolute;
   left: 20px;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 700;
   color: var(--primary-color);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s;
 }
-
 .faq-section details[open] > summary::before {
   transform: rotate(45deg);
 }
-
-.faq-section summary:hover {
-  color: var(--primary-color);
-}
-
 .faq-section p {
   font-size: 0.95rem;
   color: var(--text-muted);
-  padding: 15px 20px 20px 20px;
+  padding: 15px 20px 20px;
   border-top: 1px dashed rgba(255, 255, 255, 0.1);
   margin-top: -5px;
 }
-
 @media (max-width: 768px) {
   .about-header {
     flex-direction: column;
@@ -264,24 +231,22 @@
     font-size: 2rem;
   }
 }
-
 .about-card,
+.cta-button,
 .faq-section details,
-.intro-text p,
 .intro-text h1,
-.cta-button {
+.intro-text p {
   opacity: 0;
   transform: translateY(20px);
-  animation: elementFadeIn 0.6s forwards ease-out;
+  animation: 0.6s ease-out forwards elementFadeIn;
   font-size: 2rem;
 }
 .about-header .profile-picture {
   animation:
-    elementFadeIn 0.6s forwards ease-out,
-    pulse 2s infinite;
+    0.6s ease-out forwards elementFadeIn,
+    2s infinite pulse;
 }
-
-.about-content .about-card:nth-child(1) {
+.about-content .about-card:first-child {
   animation-delay: 0.1s;
 }
 .about-content .about-card:nth-child(2) {
@@ -299,8 +264,7 @@
 .about-content .about-card:nth-child(6) {
   animation-delay: 0.6s;
 }
-
-.faq-section details:nth-of-type(1) {
+.faq-section details:first-of-type {
   animation-delay: 0.7s;
 }
 .faq-section details:nth-of-type(2) {
@@ -309,7 +273,6 @@
 .faq-section details:nth-of-type(3) {
   animation-delay: 0.9s;
 }
-
 @keyframes elementFadeIn {
   from {
     opacity: 0;

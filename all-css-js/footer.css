@@ -1,4 +1,3 @@
-/* footer */
 .footer {
   width: 100%;
   background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
@@ -6,93 +5,76 @@
   color: #fff;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
 }
-
 .footer-top {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
 .brand-box h1 {
   font-size: 28px;
   margin-bottom: 5px;
   color: #01d1ff;
   font-weight: 700;
 }
-
 .brand-box p {
   margin-bottom: 15px;
   opacity: 0.85;
 }
-
 .social-links a img {
   width: 35px;
   margin-right: 8px;
   transition: 0.3s;
   border-radius: 999px;
 }
-
 .social-links a img:hover {
   transform: scale(1.15);
   filter: drop-shadow(0 0 6px #00eaff);
 }
-
 .footer img {
   width: 150px;
   border-radius: 999px;
-  border: 3px rgb(62, 62, 62) solid;
+  border: 3px solid #3e3e3e;
 }
-
 .footer-lists {
   display: flex;
   gap: 60px;
   flex-wrap: wrap;
 }
-
 .footer-list h2 {
   font-size: 20px;
   margin-bottom: 10px;
   color: #00eaff;
 }
-
 .footer-list ul {
   list-style: none;
   padding: 0;
 }
-
 .footer-list ul li {
   margin: 8px 0;
   opacity: 0.9;
   transition: 0.3s;
 }
-
 .footer-list ul li:hover {
   opacity: 1;
   transform: translateX(-5px);
 }
-
 .footer-list ul li a {
   color: #fff;
   text-decoration: none;
   transition: 0.3s;
 }
-
 .footer-list ul li a:hover {
   color: #00eaff;
 }
-
-/* ریسپانسیو */
 @media (max-width: 850px) {
   .footer-top {
     flex-direction: column;
     text-align: center;
     align-items: center;
   }
-
   .social-links img {
     margin: 10px;
   }
-
   .footer-lists {
     margin-top: 30px;
     justify-content: center;

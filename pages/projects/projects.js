@@ -1,4 +1,3 @@
-// مدیریت فیلتر کردن دکمه‌ها و نمایش/پنهان‌سازی بخش‌ها
 const buttons = document.querySelectorAll(".btn-filter");
 const sections = document.querySelectorAll(".section");
 
@@ -19,7 +18,6 @@ buttons.forEach((btn) => {
   });
 });
 
-// تابع اصلی بارگذاری و رندر کردن تمام داده‌ها از فایل JSON
 async function initPortfolio() {
   try {
     const response = await fetch("site.json");
@@ -31,7 +29,6 @@ async function initPortfolio() {
 
     const data = await response.json();
 
-    // 1. بارگذاری پروژه‌ها (Websites)
     const projectsData =
       data.find((item) => item.category === "projects")?.items || [];
     const projectsContainer = document.getElementById("projects-container");
@@ -71,7 +68,6 @@ async function initPortfolio() {
       }, 100);
     }
 
-    // 2. بارگذاری کارت‌های ویزیت (Business Cards)
     const cardsData =
       data.find((item) => item.category === "cards")?.items || [];
     const cartContainer = document.getElementById("cart");
@@ -91,7 +87,6 @@ async function initPortfolio() {
       cartContainer.innerHTML = cardsHTML;
     }
 
-    // 3. بارگذاری لوگوها (Logos)
     const logosData =
       data.find((item) => item.category === "logos")?.items || [];
     const logoContainer = document.querySelector(".flex-logos");
@@ -112,7 +107,6 @@ async function initPortfolio() {
   } catch (error) {
     console.error("خطا در بارگذاری اطلاعات پورتفولیو:", error);
 
-    // نمایش پیام خطا به کاربر در صورت عدم بارگذاری
     const projectsContainer = document.getElementById("projects-container");
     if (projectsContainer) {
       projectsContainer.innerHTML =
@@ -121,5 +115,4 @@ async function initPortfolio() {
   }
 }
 
-// اجرای تابع پس از لود شدن کامل ساختار HTML صفحه
 document.addEventListener("DOMContentLoaded", initPortfolio);

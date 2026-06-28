@@ -1,56 +1,56 @@
+.progress,
+.skill-card {
+  overflow: hidden;
+  position: relative;
+}
 .header-wrapper {
-  background: url("../../image/hero bg/hero\ \(1\).jpg") center/cover fixed
-    no-repeat;
+  background: url("../../image/hero bg/hero\ \(1\).jpg") center/cover no-repeat
+    fixed;
 }
 .skills-page {
   max-width: 1200px;
-  margin: 40px auto;
-  margin-bottom: 150px;
+  margin: 40px auto 150px;
   padding: 20px;
   color: #fff;
   font-family: system-ui, sans-serif;
 }
-
+.category-title,
 .section-title {
-  font-family: "Lobster", sans-serif;
+  font-family: Lobster, sans-serif;
+}
+.section-title {
   font-size: 30px;
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
   padding: 5px 10px;
   width: fit-content;
-  margin: 3% auto 20px auto;
+  margin: 3% auto 20px;
   color: #000;
   border-radius: 10px;
-  box-shadow: 0px 7px 20px -7px rgba(255, 255, 255, 0.75);
+  box-shadow: 0 7px 20px -7px rgba(255, 255, 255, 0.75);
 }
-
 .skills-subtitle {
   text-align: center;
   max-width: 750px;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 50px;
   color: #d8d8d8;
   line-height: 1.9;
   font-size: 15px;
 }
-
 .skills-category {
   margin-bottom: 50px;
 }
-
 .category-title {
-  font-family: "Lobster", sans-serif;
   font-size: 24px;
   margin-bottom: 20px;
   padding-right: 10px;
   border-right: 4px solid #fff;
   color: #fff;
 }
-
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
 }
-
 .skill-card {
   background: linear-gradient(145deg, #0d0d0d, #161616);
   border: 1px solid #ffffff14;
@@ -60,13 +60,10 @@
   flex-direction: column;
   gap: 14px;
   transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease,
-    border-color 0.3s ease;
-  position: relative;
-  overflow: hidden;
+    transform 0.3s,
+    box-shadow 0.3s,
+    border-color 0.3s;
 }
-
 .skill-card::before {
   content: "";
   position: absolute;
@@ -82,26 +79,22 @@
   transform: rotate(25deg);
   pointer-events: none;
 }
-
 .skill-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 12px 30px rgba(255, 255, 255, 0.08);
   border-color: #ffffff40;
 }
-
 .skill-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 10px;
 }
-
 .skill-info {
   display: flex;
   align-items: center;
   gap: 14px;
 }
-
 .skill-info img {
   width: 60px;
   height: auto;
@@ -111,16 +104,14 @@
   background: #222;
   padding: 6px;
 }
-
 .skill-info h3 {
   margin: 0;
   font-size: 18px;
   color: #fff;
 }
-
 .percent {
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 700;
   color: #fff;
   background: #ffffff12;
   padding: 6px 10px;
@@ -128,7 +119,6 @@
   min-width: 58px;
   text-align: center;
 }
-
 .level-badge {
   display: inline-block;
   margin-top: 6px;
@@ -138,74 +128,58 @@
   font-weight: 700;
   letter-spacing: 0.5px;
 }
-
 .level-badge.expert {
-  background: #ffffff;
+  background: #fff;
   color: #000;
 }
-
 .level-badge.advanced {
   background: #cfcfcf;
   color: #000;
 }
-
 .level-badge.intermediate {
   background: #666;
   color: #fff;
 }
-
 .progress {
   background: rgba(255, 255, 255, 0.12);
   border-radius: 999px;
   height: 12px;
-  overflow: hidden;
-  position: relative;
   border: 1px solid #ffffff10;
 }
-
 .progress-bar {
   height: 100%;
   width: 0;
-  background: linear-gradient(90deg, #ffffff 0%, #bfbfbf 50%, #ffffff 100%);
+  background: linear-gradient(90deg, #fff 0, #bfbfbf 50%, #fff 100%);
   border-radius: 999px;
-  transition: width 1.4s ease;
+  transition: width 1.4s;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.35);
 }
-
 .skill-card:hover .progress-bar {
   filter: brightness(1.1);
 }
-
-/* --------------------------------responsive---------------------- */
 @media (max-width: 992px) {
   .skills-grid {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   }
 }
-
 @media (max-width: 768px) {
   .section-title {
     font-size: 22px;
   }
-
   .skills-subtitle {
     font-size: 14px;
     padding: 0 10px;
   }
-
   .category-title {
     font-size: 20px;
   }
-
   .skills-grid {
     grid-template-columns: 1fr;
   }
-
   .skill-top {
     flex-direction: column;
     align-items: flex-start;
   }
-
   .percent {
     align-self: flex-end;
   }

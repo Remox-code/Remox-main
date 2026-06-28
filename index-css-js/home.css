@@ -1,52 +1,42 @@
 .header-wrapper {
-  background: url("../image/hero bg/home-hero.jpg") center/cover fixed no-repeat;
+  background: url("../image/hero bg/home-hero.jpg") center/cover no-repeat fixed;
 }
-
-/* about */
-
 .main-about #p {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 30px;
   text-align: center;
-  margin: 200px 0 40px 0;
+  margin: 200px 0 40px;
 }
-
 #about {
   display: flex;
   gap: 50px;
   max-width: 1000px;
   margin: auto;
 }
-
 #about img {
   width: 400px;
   height: 400px;
   border-radius: 30px;
-  box-shadow: 0 0 20px rgb(112, 112, 112);
+  box-shadow: 0 0 20px #707070;
 }
-
 .aboutb p {
   line-height: 1.5;
   font-size: 20px;
   color: #eee;
   text-align: right;
 }
-
-/* skills */
-
+#title,
 .skills h1 {
   text-align: center;
   margin-top: 200px;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
-
 .skills #span {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   width: fit-content;
   margin: auto;
 }
-
 .skills img {
   width: 50px;
   height: 50px;
@@ -55,22 +45,14 @@
   transition: 0.3s;
   border: 1px solid #444;
 }
-
 .skills img:hover {
   filter: grayscale(0);
   transform: scale(1.05);
 }
-
-/* projects */
-
 #title {
-  text-align: center;
-  margin-top: 200px;
   margin-bottom: 50px;
-  font-family: "Raleway", sans-serif;
   font-size: clamp(30px, 4vw, 40px);
 }
-
 .container-project {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -78,7 +60,6 @@
   width: fit-content;
   margin: 100px auto;
 }
-
 .project-card {
   background: #111;
   border-radius: 12px;
@@ -89,69 +70,58 @@
   height: auto;
   transition: 0.2s;
 }
-
+.btn,
+.tags li {
+  border-radius: 8px;
+}
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
 }
-
 .project-card img {
   width: 100%;
   height: 300px;
   object-fit: cover;
 }
-
 .meta {
   padding: 12px;
 }
-
 .meta .title {
   margin: 0;
   font-size: 18px;
 }
-
 .meta .short {
   font-size: 14px;
   color: #bbb;
   line-height: 30px;
 }
-
 .tags {
   list-style: none;
   display: flex;
   gap: 6px;
   padding: 0;
 }
-
 .tags li {
   background: #222;
   padding: 4px 8px;
-  border-radius: 8px;
   font-size: 12px;
 }
-
 .actions {
   display: flex;
   justify-content: center;
   padding: 12px;
   gap: 10px;
 }
-
 .btn {
   padding: 6px 12px;
-  border-radius: 8px;
   font-size: 13px;
   border: 1px solid #bbb;
-  color: white;
+  color: #fff;
 }
-
 .btn:hover {
   background: #afafaf;
-  color: black;
+  color: #000;
 }
-
-/* responsive */
-
 @media (max-width: 900px) {
   .container-project {
     grid-template-columns: repeat(2, 1fr);
@@ -168,7 +138,6 @@
     font-size: 20px;
   }
 }
-
 @media (max-width: 500px) {
   .skills #span {
     grid-template-columns: repeat(4, 1fr);
@@ -176,19 +145,16 @@
   .container-project {
     display: flex;
     flex-direction: column;
+    margin: 50px auto;
   }
   .project-card {
     width: 350px;
   }
-
   .main-about #p {
-    margin: 100px 0 0 0;
+    margin: 100px 0 0;
   }
   #title {
     margin-top: 100px;
-  }
-  .container-project {
-    margin: 50px auto;
   }
   .aboutb p {
     line-height: 2;
