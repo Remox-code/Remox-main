@@ -95,14 +95,21 @@
   align-items: center;
   gap: 14px;
 }
-.skill-info img {
-  width: 60px;
-  height: auto;
-  border-radius: 12px;
-  object-fit: cover;
-  border: 1px solid #ffffff20;
-  background: #222;
-  padding: 6px;
+.skill-info i {
+  font-size: 42px;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  transition: 0.35s;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+.skill-card:hover .skill-icon {
+  transform: rotate(-8deg) scale(1.12);
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
 }
 .skill-info h3 {
   margin: 0;

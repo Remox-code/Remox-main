@@ -1,6 +1,5 @@
 .container-header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
@@ -44,5 +43,9 @@ a {
   .get-in-touch a {
     width: 300px;
     text-align: center;
+  }
+  .get-in-touch a,
+  .menu a {
+    font-size: 10px;
   }
 }

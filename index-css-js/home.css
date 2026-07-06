@@ -31,23 +31,25 @@
   margin-top: 200px;
   font-family: Raleway, sans-serif;
 }
-.skills #span {
+.skills-icons {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+  justify-content: center;
+  background-color: #212121;
+  padding: 20px 30px;
+  margin: 0 auto;
   width: fit-content;
-  margin: auto;
+  border-radius: 20px;
 }
-.skills img {
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-  filter: grayscale(100%);
-  transition: 0.3s;
-  border: 1px solid #444;
+.skills-icons i {
+  font-size: 55px;
+  transition: 0.35s;
+  cursor: pointer;
 }
-.skills img:hover {
-  filter: grayscale(0);
-  transform: scale(1.05);
+.skills-icons i:hover {
+  transform: translateY(-8px) scale(1.15);
+  filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.3));
 }
 #title {
   margin-bottom: 50px;
@@ -117,19 +119,19 @@
   font-size: 13px;
   border: 1px solid #bbb;
   color: #fff;
-  font-weight: bold;
+  font-weight: 700;
 }
 .btn:hover {
   background: #767676;
   border: none;
   color: #000;
-  transition: ease 0.3s;
+  transition: 0.3s;
   transform: translateY(-3px);
 }
 .availability {
   max-width: 850px;
   margin: 40px auto;
-  padding: 0px 12px;
+  padding: 0 12px;
   border-radius: 18px;
   display: flex;
   align-items: center;
@@ -143,9 +145,8 @@
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  animation: pulse 1.5s infinite;
+  animation: 1.5s infinite pulse;
 }
-
 .availability .btn {
   text-decoration: none;
   padding: 12px 22px;
@@ -157,41 +158,33 @@
 }
 .availability .btn:hover {
   transform: translateY(-4px);
-  box-shadow: 0 10px 10px black;
+  box-shadow: 0 10px 10px #000;
 }
-/* حالت آزاد */
 .available .status-dot {
   background: #166608;
   box-shadow: 0 0 12px #0d7e0f;
 }
-
 .available .btn {
   background: #1b680e;
   color: #fff;
 }
-
-/* حالت مشغول */
 .busy .status-dot {
   background: #e53935;
   box-shadow: 0 0 12px #e53935;
 }
-
 .busy .btn {
   background: #e53935;
   color: #fff;
 }
 @keyframes pulse {
-  0% {
+  0%,
+  100% {
     opacity: 1;
     transform: scale(1);
   }
   50% {
     opacity: 0.5;
     transform: scale(1.3);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
   }
 }
 @media (max-width: 900px) {
@@ -211,9 +204,6 @@
   }
 }
 @media (max-width: 500px) {
-  .skills #span {
-    grid-template-columns: repeat(4, 1fr);
-  }
   .container-project {
     display: flex;
     flex-direction: column;
@@ -236,5 +226,8 @@
     flex-direction: column;
     gap: 5px;
     padding: 10px;
+  }
+  .skills-icons {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
