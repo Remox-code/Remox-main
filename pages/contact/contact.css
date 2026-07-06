@@ -59,6 +59,7 @@ textarea {
 input:hover,
 textarea:hover {
   border: 3px solid #ff006a;
+  transition: ease 0.5s;
 }
 textarea {
   padding: 40px 0;
@@ -157,10 +158,9 @@ textarea:focus {
 .col {
   flex-direction: column;
 }
-.contact-box img {
-  border-radius: 50%;
-  width: 100px;
-  box-shadow: 0 0 20px 0 #ff006a;
+.contact-box .fab,
+.contact-box .fas {
+  font-size: 100px;
 }
 .contact-box p {
   font-size: 25px;
@@ -177,14 +177,13 @@ textarea:focus {
 .contact-box a:hover {
   transform: translateX(3px);
   transition: 0.25s;
-  border: 3px solid #69002c;
-  box-shadow: 0 -3px 15px 1px #69002c;
+  border: 3px solid #5a4606;
+  box-shadow: 0 -3px 15px 1px #4c3f12;
 }
 .contact-box:hover {
   transform: translate(-3px);
   transition: 0.25s;
-  border: 5px solid #000;
-  box-shadow: 0 0 20px 5px #40004f;
+  box-shadow: 0 0 10px #d4af37;
 }
 @media (max-width: 980px) {
   .register-inside {
@@ -224,8 +223,8 @@ textarea:focus {
     padding: 20px 10px;
     border-radius: 20px;
   }
-  .contact-box img {
-    width: 70px;
+  .contact-box .fab {
+    font-size: 70px;
   }
   .contact-box a {
     font-size: 10px;

@@ -1,3 +1,6 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 body,
 html {
   width: 100%;
@@ -10,4 +13,13 @@ body {
   background: #000;
   color: #fff;
   font-family: Lobster, sans-serif;
+}
+html {
+  scrollbar-color: #000000 #171717;
+}
+.nav-links.active,
+.footer-link.active {
+  border-bottom: 2px solid #d4af37;
+  background-color: #0f0f0fa7;
+  font-weight: bold;
 }
