@@ -136,30 +136,30 @@
   letter-spacing: 0.5px;
 }
 .level-badge.expert {
-  background: #fff;
+  background: #c3a200;
   color: #000;
 }
 .level-badge.advanced {
-  background: #cfcfcf;
+  background: #c3a300cb;
   color: #000;
 }
 .level-badge.intermediate {
-  background: #666;
+  background: #c3a30051;
   color: #fff;
 }
 .progress {
   background: rgba(255, 255, 255, 0.12);
   border-radius: 999px;
   height: 12px;
-  border: 1px solid #ffffff10;
+  border: 1px solid #ffdd0010;
 }
 .progress-bar {
   height: 100%;
   width: 0;
-  background: linear-gradient(90deg, #fff 0, #bfbfbf 50%, #fff 100%);
+  background: linear-gradient(90deg, #e4bb29 0, #c3a021 50%, #ac8d1c 100%);
   border-radius: 999px;
   transition: width 1.4s;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.35);
+  box-shadow: 0 0 12px rgba(255, 204, 0, 0.35);
 }
 .skill-card:hover .progress-bar {
   filter: brightness(1.1);

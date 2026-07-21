@@ -20,7 +20,7 @@ a {
   padding: 0;
   gap: 15px;
 }
-.get-in-touch a,
+
 .menu a {
   display: block;
   padding: 10px 20px;
@@ -30,22 +30,63 @@ a {
   font-size: 16px;
   position: relative;
 }
-.get-in-touch a:hover,
 .menu a:hover {
   border-color: #ffffff60;
   transform: translate(3px, -3px);
   box-shadow: 0 0 10px #ffffff20;
 }
-@media (max-width: 760px) {
-  .container-header {
-    flex-direction: column;
+.availability {
+  padding: 0 12px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: #fff;
+}
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: 1.5s infinite pulse;
+}
+.availability .btn {
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 12px;
+  font-weight: bolder;
+  transition: 0.3s;
+  border: none;
+  font-size: 0.8rem;
+}
+.availability .btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 10px #000;
+}
+.available .status-dot {
+  background: #166608;
+  box-shadow: 0 0 12px #0d7e0f;
+}
+.available .btn {
+  background: #1b680e;
+  color: #fff;
+}
+.busy .status-dot {
+  background: #e53935;
+  box-shadow: 0 0 12px #e53935;
+}
+.busy .btn {
+  background: #e53935;
+  color: #fff;
+}
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
   }
-  .get-in-touch a {
-    width: 300px;
-    text-align: center;
-  }
-  .get-in-touch a,
-  .menu a {
-    font-size: 10px;
+  50% {
+    opacity: 0.5;
+    transform: scale(1.3);
   }
 }
