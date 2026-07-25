@@ -1,15 +1,34 @@
 document.addEventListener("DOMContentLoaded", async () => {
-  const BASE = window.BASE_PATH || "";
+  window.BASE = window.BASE_PATH || "";
 
   await loadComponent("header", BASE + "components/header.html");
   await loadComponent("footer", BASE + "components/footer.html");
 
+  initNavigation();
   setAvailability(1);
+  loadImages();
+  initFadeAnimation();
+});
 
-  document.querySelectorAll("[data-src]").forEach((img) => {
-    img.src = BASE + img.dataset.src;
-  });
+async function loadComponent(id, file) {
+  const element = document.getElementById(id);
 
+  if (!element) return;
+
+  try {
+    const response = await fetch(file);
+
+    if (!response.ok) {
+      throw new Error("Failed to load: " + file);
+    }
+
+    element.innerHTML = await response.text();
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+function initNavigation() {
   const routes = {
     home: "index.html",
     about: "pages/about/about.html",
@@ -19,19 +38,31 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
 
   document.querySelectorAll("[data-page]").forEach((link) => {
-    link.href = BASE + routes[link.dataset.page];
-  });
+    const page = link.dataset.page;
 
-  const current = location.pathname.replace(/\\/g, "/");
-
-  document.querySelectorAll("[data-page]").forEach((link) => {
-    const route = routes[link.dataset.page];
-
-    if (current.endsWith(route)) {
-      link.classList.add("active");
+    if (routes[page]) {
+      link.href = BASE + routes[page];
     }
   });
 
+  const currentPage = document.body.dataset.page;
+
+  document.querySelectorAll("[data-page]").forEach((link) => {
+    link.classList.remove("active");
+
+    if (link.dataset.page === currentPage) {
+      link.classList.add("active");
+    }
+  });
+}
+
+function loadImages() {
+  document.querySelectorAll("[data-src]").forEach((img) => {
+    img.src = BASE + img.dataset.src;
+  });
+}
+
+function initFadeAnimation() {
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
@@ -48,24 +79,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   document
     .querySelectorAll(".fade,.fade-hero")
     .forEach((el) => observer.observe(el));
-});
-
-async function loadComponent(id, file) {
-  const element = document.getElementById(id);
-
-  if (!element) return;
-
-  try {
-    const response = await fetch(file);
-
-    if (!response.ok) {
-      throw new Error("Failed to load : " + file);
-    }
-
-    element.innerHTML = await response.text();
-  } catch (err) {
-    console.error(err);
-  }
 }
 
 function setAvailability(status) {
@@ -78,7 +91,7 @@ function setAvailability(status) {
 
   if (status === 1) {
     availability.classList.add("available");
-    button.textContent = "آماده همکاری";
+    button.textContent = "آماده همکاری - تماس";
   } else {
     availability.classList.add("busy");
     button.textContent = "مشغول پروژه";
