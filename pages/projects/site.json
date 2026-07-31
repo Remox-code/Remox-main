@@ -4,77 +4,77 @@
     "items": [
       {
         "title": "GameBar",
-        "description": "سایت دانلود بازی برای سیستم عامل‌های مختلف به صورت رایگان",
+        "description": "GameBar یک پلتفرم دانلود بازی با طراحی مدرن و رابط کاربری روان است که امکان دسترسی سریع به بازی‌های مختلف برای ویندوز، اندروید و سایر سیستم‌عامل‌ها را فراهم می‌کند. این پروژه با تمرکز بر دسته‌بندی اصولی، تجربه کاربری بهینه، نمایش اطلاعات بازی‌ها و طراحی واکنش‌گرا توسعه داده شده است",
         "iframeUrl": "https://remox-code.github.io/GameBar/",
         "githubUrl": "https://remox-code.github.io/GameBar/",
         "tags": ["HTML", "CSS", "JS"]
       },
       {
         "title": "Remox-store",
-        "description": "سایت فروشگاهی فروش انواع اکسسوری زنانه و مردانه",
+        "description": "یک فروشگاه اینترنتی مدرن برای عرضه انواع اکسسوری زنانه و مردانه که با هدف ایجاد تجربه خرید ساده و جذاب طراحی شده است. این پروژه شامل صفحه محصولات، دسته‌بندی کالاها، طراحی واکنش‌گرا، رابط کاربری حرفه‌ای و ساختاری مناسب برای توسعه قابلیت‌های فروشگاهی در آینده است",
         "iframeUrl": "https://remox-code.github.io/Remox-store/",
         "githubUrl": "https://remox-code.github.io/Remox-store/",
         "tags": ["HTML", "CSS", "JS"]
       },
       {
         "title": "Remox-personal",
-        "description": "سایت شخصی و رزومه همراه با توضیح مفاهیم پایه برنامه‌نویسی",
+        "description": "وب‌سایت شخصی و نمونه‌کار با هدف معرفی مهارت‌ها، پروژه‌ها و مسیر حرفه‌ای من در حوزه توسعه وب. این پروژه علاوه بر نمایش رزومه، شامل آموزش مفاهیم پایه برنامه‌نویسی، معرفی تکنولوژی‌های مورد استفاده و ارائه نمونه‌کارها در قالبی مدرن و تعاملی است",
         "iframeUrl": "https://remox-code.github.io/Remox-personal/",
         "githubUrl": "https://remox-code.github.io/Remox-personal/",
         "tags": ["HTML", "CSS", "JS"]
       },
       {
         "title": "Namakaran",
-        "description": "سایت شرکت نماکاران اجرای انواع کابینت، سالن آمفی‌تئاتر و... بالاترین کیفیت",
+        "description": "وب‌سایت شرکتی برای معرفی خدمات مجموعه نماکاران در زمینه طراحی و اجرای کابینت، دکوراسیون داخلی، سالن‌های آمفی‌تئاتر و پروژه‌های سفارشی. تمرکز اصلی این پروژه بر معرفی خدمات، نمایش نمونه‌کارها، ایجاد اعتماد کاربران و طراحی حرفه‌ای برای برندینگ کسب‌وکار بوده است",
         "iframeUrl": "https://remox-code.github.io/Namakaran/",
         "githubUrl": "https://remox-code.github.io/Namakaran/",
         "tags": ["HTML", "CSS", "JS"]
       },
       {
         "title": "Remox-weather",
-        "description": "سایت آب هوا با استفاده از API های مختلف مانند پیشبینی آب و هوای منطقه",
+        "description": "سامانه پیش‌بینی وضعیت آب‌وهوا که با استفاده از APIهای مختلف اطلاعات لحظه‌ای، پیش‌بینی چندروزه، دما، رطوبت، سرعت باد و سایر داده‌های جوی را نمایش می‌دهد. این پروژه نمونه‌ای از کار با API، پردازش داده‌ها و پیاده‌سازی رابط کاربری پویا در جاوااسکریپت است",
         "iframeUrl": "https://remox-code.github.io/weather/",
         "githubUrl": "https://remox-code.github.io/weather/",
         "tags": ["HTML", "CSS", "JS"]
       },
       {
         "title": "Kesht.Sanat.Hamed",
-        "description": "سایت فروش انواع محصولات کشاورزی طبیعی، کشت و صنعت حامد",
+        "description": "وب‌سایت معرفی و فروش آنلاین محصولات کشاورزی و ارگانیک که با هدف معرفی برند، نمایش محصولات و ساده‌سازی فرآیند خرید طراحی شده است. ساختار پروژه به گونه‌ای پیاده‌سازی شده که امکان توسعه بخش‌های فروشگاهی و مدیریت محصولات در آینده نیز وجود داشته باشد",
         "iframeUrl": "https://remox-code.github.io/Kesht-Sanat-Hamed/",
         "githubUrl": "https://remox-code.github.io/Kesht-Sanat-Hamed/",
         "tags": ["HTML", "CSS", "JS"]
       },
       {
         "title": "Remox-games",
-        "description": "سایت بازی های گوناگون و جالب و تمرکز روی کار با جاوااسکریپت",
+        "description": "مجموعه‌ای از بازی‌های تحت وب که با هدف تمرین و نمایش توانایی‌های JavaScript توسعه یافته‌اند. این پروژه شامل بازی‌های تعاملی، مدیریت رویدادها، انیمیشن‌ها، منطق بازی و پیاده‌سازی تجربه کاربری روان در محیط مرورگر است",
         "iframeUrl": "https://remox-code.github.io/Remox-games/",
         "githubUrl": "https://remox-code.github.io/Remox-games/",
         "tags": ["HTML", "CSS", "JS"]
       },
       {
         "title": "Remox-Gym",
-        "description": "سایت معرفی باشگاه بدنسازی پرداخت شهریه و ثبت نام آنلاین",
+        "description": "وب‌سایت معرفی باشگاه بدنسازی با امکاناتی مانند معرفی خدمات، برنامه‌های تمرینی، ثبت‌نام آنلاین، پرداخت شهریه و نمایش مربیان. این پروژه با هدف ارائه یک تجربه دیجیتال حرفه‌ای برای باشگاه‌های ورزشی و جذب کاربران جدید طراحی شده است",
         "iframeUrl": "https://remox-code.github.io/Remox-gym/",
         "githubUrl": "https://remox-code.github.io/Remox-gym/",
         "tags": ["HTML", "CSS", "JS"]
       },
       {
-        "title": "boosty",
-        "description": "وبسایت معرفی و فروش ابزار توسعه فردی",
+        "title": "Boosty",
+        "description": "وب‌سایتی برای معرفی و فروش ابزارهای توسعه فردی با تمرکز بر مدیریت زمان، برنامه‌ریزی، افزایش بهره‌وری و رشد شخصی. طراحی رابط کاربری، ساختار صفحات و تجربه کاربری این پروژه با هدف ایجاد تعامل بیشتر کاربران انجام شده است",
         "iframeUrl": "https://remox-code.github.io/Remox-boosty/",
         "githubUrl": "https://remox-code.github.io/Remox-boosty/",
         "tags": ["HTML", "CSS", "JS"]
       },
       {
         "title": "Remox-Tracker",
-        "description": "وبسایت ارائه ابزار توسعه فردی",
+        "description": "یک ابزار تحت وب برای مدیریت اهداف، پیگیری عادت‌ها، برنامه‌ریزی روزانه و ثبت فعالیت‌های شخصی. این پروژه با تمرکز بر افزایش بهره‌وری کاربران، طراحی ساده، رابط کاربری مدرن و تجربه کاربری روان توسعه داده شده است",
         "iframeUrl": "https://remox-code.github.io/Remox-Tracker/",
         "githubUrl": "https://remox-code.github.io/Remox-Tracker/",
         "tags": ["HTML", "CSS", "JS"]
       },
       {
         "title": "Remox-Green",
-        "description": "وبسایت گلخانه - خرید آنلاین",
+        "description": "فروشگاه آنلاین گلخانه و گیاهان زینتی با امکان معرفی محصولات، نمایش دسته‌بندی‌ها، ارائه اطلاعات کامل هر محصول و تجربه خرید آنلاین. این پروژه با هدف ایجاد یک فروشگاه مدرن، واکنش‌گرا و کاربرپسند برای کسب‌وکارهای حوزه گل و گیاه طراحی شده است",
         "iframeUrl": "https://remox-code.github.io/Remox-Green/",
         "githubUrl": "https://remox-code.github.io/Remox-Green/",
         "tags": ["HTML", "CSS", "JS"]
