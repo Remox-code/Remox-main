@@ -86,72 +86,73 @@
     "items": [
       {
         "layout": "amodi",
-        "img1": "../images-page2/cards/cart nn1.png",
-        "img2": "../images-page2/cards/cart nn2.png"
+        "img1": "../images-page2/cards/cart nn1.webp",
+        "img2": "../images-page2/cards/cart nn2.webp"
       },
       {
         "layout": "amodi",
-        "img1": "../images-page2/cards/cart n1.png",
-        "img2": "../images-page2/cards/cart n2.png"
+        "img1": "../images-page2/cards/cart n1.webp",
+        "img2": "../images-page2/cards/cart n2.webp"
       },
       {
         "layout": "amodi",
-        "img1": "../images-page2/cards/zaferan (1).jpg",
-        "img2": "../images-page2/cards/zaferan (2).jpg"
+        "img1": "../images-page2/cards/zaferan (1).webp",
+        "img2": "../images-page2/cards/zaferan (2).webp"
       },
       {
         "layout": "amodi",
-        "img1": "../images-page2/cards/cart z1.png",
-        "img2": "../images-page2/cards/cart z2.png"
+        "img1": "../images-page2/cards/cart z1.webp",
+        "img2": "../images-page2/cards/cart z2.webp"
       },
       {
         "layout": "ofogi",
-        "img1": "../images-page2/cards/cart p1.png",
-        "img2": "../images-page2/cards/cart p2.png"
+        "img1": "../images-page2/cards/cart p1.webp",
+        "img2": "../images-page2/cards/cart p2.webp"
       },
       {
         "layout": "ofogi",
-        "img1": "../images-page2/cards/cartB (1).png",
-        "img2": "../images-page2/cards/cartB (2).png"
+        "img1": "../images-page2/cards/cartB (1).webp",
+        "img2": "../images-page2/cards/cartB (2).webp"
       },
       {
         "layout": "ofogi",
-        "img1": "../images-page2/cards/cartA (1).png",
-        "img2": "../images-page2/cards/cartA (2).png"
+        "img1": "../images-page2/cards/cartA (1).webp",
+        "img2": "../images-page2/cards/cartA (2).webp"
       },
       {
         "layout": "ofogi",
-        "img1": "../images-page2/cards/cartG (1).png",
-        "img2": "../images-page2/cards/cartG (2).png"
+        "img1": "../images-page2/cards/cartG (1).webp",
+        "img2": "../images-page2/cards/cartG (2).webp"
       }
     ]
   },
   {
     "category": "logos",
     "items": [
-      { "img": "../images-page2/logo/logo.png" },
-      { "img": "../images-page2/logo/logo (2).jpg" },
-      { "img": "../images-page2/logo/logo (2).png" },
-      { "img": "../images-page2/logo/logo (19).png" },
-      { "img": "../images-page2/logo/logo (4).jpg" },
-      { "img": "../images-page2/logo/logo (5).jpg" },
-      { "img": "../images-page2/logo/logo (1).jpg" },
-      { "img": "../images-page2/logo/logo (1).png" },
-      { "img": "../images-page2/logo/logo (3).png" },
-      { "img": "../images-page2/logo/logo (4).png" },
-      { "img": "../images-page2/logo/logo (5).png" },
-      { "img": "../images-page2/logo/logo (6).png" },
-      { "img": "../images-page2/logo/logo (7).png" },
-      { "img": "../images-page2/logo/logo (8).png" },
-      { "img": "../images-page2/logo/logo (9).png" },
-      { "img": "../images-page2/logo/logo (10).png" },
-      { "img": "../images-page2/logo/logo (11).png" },
-      { "img": "../images-page2/logo/logo (13).png" },
-      { "img": "../images-page2/logo/logo (14).png" },
-      { "img": "../images-page2/logo/logo (15).png" },
-      { "img": "../images-page2/logo/logo (16).png" },
-      { "img": "../images-page2/logo/logo (17).png" },
-      { "img": "../images-page2/logo/logo (18).png" }
+      { "img": "../images-page2/logo/logo (1).webp" },
+      { "img": "../images-page2/logo/logo (2).webp" },
+      { "img": "../images-page2/logo/logo (3).webp" },
+      { "img": "../images-page2/logo/logo (4).webp" },
+      { "img": "../images-page2/logo/logo (5).webp" },
+      { "img": "../images-page2/logo/logo (6).webp" },
+      { "img": "../images-page2/logo/logo (7).webp" },
+      { "img": "../images-page2/logo/logo (8).webp" },
+      { "img": "../images-page2/logo/logo (9).webp" },
+      { "img": "../images-page2/logo/logo (10).webp" },
+      { "img": "../images-page2/logo/logo (11).webp" },
+      { "img": "../images-page2/logo/logo (12).webp" },
+      { "img": "../images-page2/logo/logo (13).webp" },
+      { "img": "../images-page2/logo/logo (14).webp" },
+      { "img": "../images-page2/logo/logo (15).webp" },
+      { "img": "../images-page2/logo/logo (16).webp" },
+      { "img": "../images-page2/logo/logo (17).webp" },
+      { "img": "../images-page2/logo/logo (18).webp" },
+      { "img": "../images-page2/logo/logo (19).webp" },
+      { "img": "../images-page2/logo/logo (20).webp" },
+      { "img": "../images-page2/logo/logo (21).webp" },
+      { "img": "../images-page2/logo/logo (22).webp" },
+      { "img": "../images-page2/logo/logo (23).webp" },
+      { "img": "../images-page2/logo/logo (24).webp" }
     ]
   }
 ]

@@ -180,4 +180,8 @@
   .project-card .actions {
     justify-content: center;
   }
+  .logo {
+    width: 130px;
+    height: 130px;
+  }
 }
