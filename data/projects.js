@@ -37,7 +37,7 @@ export const projects = [
 
   {
     title: "Boosty",
-    image: "image/projects/boosty.webp",
+    image: "image/projects/Boosty.webp",
     description:
       "⚡ یک ابزار آنلاین با رابط کاربری مدرن که دسترسی سریع به امکانات کاربردی را فراهم کرده و تجربه‌ای روان برای کاربران ایجاد می‌کند",
     tags: ["HTML", "CSS", "JavaScript"],
