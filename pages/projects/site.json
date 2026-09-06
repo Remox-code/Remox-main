@@ -17,13 +17,6 @@
         "tags": ["HTML", "CSS", "JS"]
       },
       {
-        "title": "Remox-personal",
-        "description": "وب‌سایت شخصی و نمونه‌کار با هدف معرفی مهارت‌ها، پروژه‌ها و مسیر حرفه‌ای من در حوزه توسعه وب. این پروژه علاوه بر نمایش رزومه، شامل آموزش مفاهیم پایه برنامه‌نویسی، معرفی تکنولوژی‌های مورد استفاده و ارائه نمونه‌کارها در قالبی مدرن و تعاملی است",
-        "iframeUrl": "https://remox-code.github.io/Remox-personal/",
-        "githubUrl": "https://remox-code.github.io/Remox-personal/",
-        "tags": ["HTML", "CSS", "JS"]
-      },
-      {
         "title": "Namakaran",
         "description": "وب‌سایت شرکتی برای معرفی خدمات مجموعه نماکاران در زمینه طراحی و اجرای کابینت، دکوراسیون داخلی، سالن‌های آمفی‌تئاتر و پروژه‌های سفارشی. تمرکز اصلی این پروژه بر معرفی خدمات، نمایش نمونه‌کارها، ایجاد اعتماد کاربران و طراحی حرفه‌ای برای برندینگ کسب‌وکار بوده است",
         "iframeUrl": "https://remox-code.github.io/Namakaran/",
@@ -77,6 +70,20 @@
         "description": "فروشگاه آنلاین گلخانه و گیاهان زینتی با امکان معرفی محصولات، نمایش دسته‌بندی‌ها، ارائه اطلاعات کامل هر محصول و تجربه خرید آنلاین. این پروژه با هدف ایجاد یک فروشگاه مدرن، واکنش‌گرا و کاربرپسند برای کسب‌وکارهای حوزه گل و گیاه طراحی شده است",
         "iframeUrl": "https://remox-code.github.io/Remox-Green/",
         "githubUrl": "https://remox-code.github.io/Remox-Green/",
+        "tags": ["HTML", "CSS", "JS"]
+      },
+      {
+        "title": "DongBegir",
+        "description": "این پروژه با هدف تقسیم سهم هرنفر در موارد مختلف است، امکان اضافه کردن افراد ، مدیریت و ویرایش هزینه ها ، اضافه کردن پروژه جدید، چاپ گزارش و تهیه خروجی",
+        "iframeUrl": "https://remox-code.github.io/DongBegir/",
+        "githubUrl": "https://remox-code.github.io/DongBegir/",
+        "tags": ["HTML", "CSS", "JS"]
+      },
+      {
+        "title": "Remox-watch",
+        "description": "این پروژه با هدف مدیریت سریال ها ، فیلم ها و انیمه ها و.. درحال تماشا و پایان یافته طراحی شده است  ",
+        "iframeUrl": "https://remox-code.github.io/Remox-watch/",
+        "githubUrl": "https://remox-code.github.io/Remox-watch/",
         "tags": ["HTML", "CSS", "JS"]
       }
     ]
